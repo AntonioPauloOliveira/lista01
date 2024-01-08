@@ -1,0 +1,13 @@
+package lista01;
+import java.util.Scanner;
+public class Q04 {
+	public static void main(String[] args) {
+		Scanner scr=new Scanner (System.in);
+		double smin,s,total;
+		System.out.println("Digite o valor do salário mínimo atual, e o valor que recebe de salário, respectivamente: ");
+		smin=scr.nextDouble();
+		s=scr.nextDouble();
+		total=s/smin;
+		System.out.println("A pessoa recebe o valor de salários mínimos: " +total);
+	}
+}
