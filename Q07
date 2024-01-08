@@ -1,0 +1,15 @@
+package lista01;
+import java.util.Scanner;
+public class Q07 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int n1,n2,termo,r;
+		n1=scr.nextInt();
+		n2=scr.nextInt();
+		termo=scr.nextInt();
+		r=n2-n1;
+		termo=n1+r*(termo-1);
+		System.out.println("O termo é: "+termo);
+		}
+
+	}
