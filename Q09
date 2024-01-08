@@ -1,0 +1,23 @@
+package lista01;
+import java.util.Scanner;
+public class Q09 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int hi,mi,si,hf,mf,sf,t1,t2,t3,h3,m3,s3;
+		hi=scr.nextInt();
+		mi=scr.nextInt();
+		si=scr.nextInt();
+		hf=scr.nextInt();
+		mf=scr.nextInt();
+		sf=scr.nextInt();
+		t1=hi*3600+mi*60+si;
+		t2=hf*3600+mf*60+sf;
+		t3=t2-t1;
+		h3=t3/3600;
+		m3=(t3%3600)/60;
+		s3=t3-(h3*3600+m3*60);
+		System.out.println("Hora: "+h3+" Minutos: "+m3+" Segundos: "+s3);
+		
+	}
+
+}
