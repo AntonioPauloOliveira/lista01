@@ -1,0 +1,18 @@
+package lista01;
+import java.util.Scanner;
+public class Q08 {
+	public static void main(String[] args) {
+		Scanner scr = new Scanner (System.in);
+		int saque,nota50,nota10,nota5,nota1;
+		saque=scr.nextInt();
+		nota50=saque/50;
+		saque=saque%50;
+		nota10=saque/10;
+		saque=saque%10;
+		nota5=saque/5;
+		nota1=saque%5;
+		System.out.println("Notas de 50: " +nota50+ " Notas de 10: " +nota10+ " Notas de 5: " +nota5+ " Notas de 1: " +nota1);
+		
+	}
+
+}
