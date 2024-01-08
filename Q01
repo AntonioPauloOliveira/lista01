@@ -1,0 +1,11 @@
+package lista01;
+import java.util.Scanner;
+public class Q01 {
+	public static void main(String[] args) {
+	Scanner scr=new Scanner (System.in);
+		double c,f;
+		c=scr.nextDouble();
+		f=((c*9)+160)/5;
+		System.out.println("Temperatura em fahrenheit"+f);
+	}
+}
