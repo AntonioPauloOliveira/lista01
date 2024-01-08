@@ -1,0 +1,14 @@
+package lista01;
+import java.security.DrbgParameters.NextBytes;
+import java.util.Scanner;
+public class Q03 {
+	public static void main(String[] args) {
+		Scanner scr=new Scanner (System.in);
+		double conta,total;
+		conta=scr.nextDouble();
+		total=conta+conta*0.10;
+		System.out.println("O valor total da conta: " +total);
+		
+	}
+
+}
