@@ -1,0 +1,13 @@
+package lista01;
+import java.util.Scanner;
+public class Q02 {
+	public static void main(String[] args) {
+		Scanner scr=new Scanner (System.in);
+		int h,m,s,t;
+		h=scr.nextInt();
+		m=scr.nextInt();
+		s=scr.nextInt();
+		t=h*3600+m*60+s;
+		System.out.println("Passaram em segundos: "+t);
+		}
+}
