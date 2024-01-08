@@ -1,0 +1,17 @@
+package lista01;
+import java.util.Scanner;
+public class Q06 {
+	public static void main(String[] args) {
+		Scanner scr=new Scanner (System.in);
+		double n1,p1,n2,p2,n3,p3,mp;
+		n1=scr.nextDouble();
+		p1=scr.nextDouble();
+		n2=scr.nextDouble();
+		p2=scr.nextDouble();
+		n3=scr.nextDouble();
+		p3=scr.nextDouble();
+		mp=(n1*p1+n2*p2+n3*p3)/(p1+p2+p3);
+			System.out.println("media ponderada: "+mp);
+	}
+
+}
